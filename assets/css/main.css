@@ -1296,6 +1296,7 @@ input, select, textarea {
 			line-height: 5.5rem;
 			border: solid 1px #ffffff;
 			border-radius: 100%;
+			
 		}
 
 			#header .logo .icon:before {
@@ -1308,6 +1309,7 @@ input, select, textarea {
 			border-top-width: 1px;
 			border-bottom-width: 1px;
 			max-width: 100%;
+			text-align: center;
 		}
 
 			#header .content .inner {
@@ -1659,3 +1661,50 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+		.large-icon {
+    	font-size: 2.3em; /* Adjust size as needed */
+		}
+
+		.experience-section h2 {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #ffffff; /* Assuming a white color for the heading */
+}
+
+.experience-entry h3 {
+    font-weight: bold;
+    font-size: 1.25em;
+    margin: 10px 0;
+    color: #ffffff; /* White color for subheadings */
+}
+
+.experience-entry ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #dcdcdc; /* Light grey for list items */
+}
+
+.experience-entry ul > li {
+    margin: 10px 0; /* Consistent margin for main list items */
+    padding: 5px 0; /* Consistent padding for list items */
+    font-weight: normal;
+}
+
+.experience-entry ul > li > strong {
+    font-weight: bold;
+    color: #ffffff; /* Ensure strong elements are white */
+}
+
+.experience-entry ul > li > ul {
+    list-style-type: circle;
+    margin: 10px 0 10px 20px; /* Adjusted margins for consistent spacing */
+    padding-left: 20px; /* Ensure consistent padding for nested lists */
+}
+
+.experience-entry ul > li > ul > li {
+    margin: 5px 0; /* Consistent margin for nested list items */
+    font-weight: normal;
+    color: #dcdcdc; /* Consistent color for nested list items */
+}
